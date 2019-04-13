@@ -1,6 +1,6 @@
 package com.perye.controller;
 
-import com.perye.domain.GenConfig;
+import com.perye.entity.GenConfig;
 import com.perye.service.GenConfigService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;

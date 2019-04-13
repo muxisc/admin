@@ -1,7 +1,7 @@
 package com.perye.service;
 
-import com.perye.domain.EmailConfig;
-import com.perye.domain.vo.EmailVo;
+import com.perye.entity.EmailConfig;
+import com.perye.entity.vo.EmailVo;
 import org.springframework.cache.annotation.CacheConfig;
 import org.springframework.cache.annotation.CachePut;
 import org.springframework.cache.annotation.Cacheable;

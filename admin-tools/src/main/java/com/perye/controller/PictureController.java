@@ -1,7 +1,7 @@
 package com.perye.controller;
 
 import com.perye.aop.log.Log;
-import com.perye.domain.Picture;
+import com.perye.entity.Picture;
 import com.perye.service.PictureService;
 import com.perye.service.query.PictureQueryService;
 import com.perye.utils.SecurityContextHolder;

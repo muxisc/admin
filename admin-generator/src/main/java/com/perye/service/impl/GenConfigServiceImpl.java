@@ -1,6 +1,6 @@
 package com.perye.service.impl;
 
-import com.perye.domain.GenConfig;
+import com.perye.entity.GenConfig;
 import com.perye.repository.GenConfigRepository;
 import com.perye.service.GenConfigService;
 import org.springframework.beans.factory.annotation.Autowired;

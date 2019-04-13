@@ -1,6 +1,6 @@
 package com.perye.repository;
 
-import com.perye.domain.EmailConfig;
+import com.perye.entity.EmailConfig;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 /**

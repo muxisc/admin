@@ -1,7 +1,7 @@
 package com.perye.service;
 
-import com.perye.domain.VerificationCode;
-import com.perye.domain.vo.EmailVo;
+import com.perye.entity.VerificationCode;
+import com.perye.entity.vo.EmailVo;
 
 /**
  * @Author: Perye

@@ -1,8 +1,8 @@
 package com.perye.controller;
 
 import com.perye.aop.log.Log;
-import com.perye.domain.QiniuConfig;
-import com.perye.domain.QiniuContent;
+import com.perye.entity.QiniuConfig;
+import com.perye.entity.QiniuContent;
 import com.perye.service.QiNiuService;
 import com.perye.service.query.QiNiuQueryService;
 import lombok.extern.slf4j.Slf4j;

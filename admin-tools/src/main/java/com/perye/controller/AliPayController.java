@@ -1,8 +1,8 @@
 package com.perye.controller;
 
 import com.perye.aop.log.Log;
-import com.perye.domain.AlipayConfig;
-import com.perye.domain.vo.TradeVo;
+import com.perye.entity.AlipayConfig;
+import com.perye.entity.vo.TradeVo;
 import com.perye.service.AlipayService;
 import com.perye.util.AliPayStatusEnum;
 import com.perye.util.AlipayUtils;

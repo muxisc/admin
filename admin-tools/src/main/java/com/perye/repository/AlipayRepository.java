@@ -1,6 +1,6 @@
 package com.perye.repository;
 
-import com.perye.domain.AlipayConfig;
+import com.perye.entity.AlipayConfig;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 /**

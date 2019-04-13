@@ -95,11 +95,11 @@ public class RedisConfig extends CachingConfigurerSupport {
         // 全局开启AutoType，不建议使用
         // ParserConfig.getGlobalInstance().setAutoTypeSupport(true);
         // 建议使用这种方式，小范围指定白名单
-        ParserConfig.getGlobalInstance().addAccept("com.perye.domain");
+        ParserConfig.getGlobalInstance().addAccept("com.perye.entity");
         ParserConfig.getGlobalInstance().addAccept("com.perye.modules.system.service.dto");
-        ParserConfig.getGlobalInstance().addAccept("com.perye.modules.system.domain");
-        ParserConfig.getGlobalInstance().addAccept("com.perye.modules.quartz.domain");
-        ParserConfig.getGlobalInstance().addAccept("com.perye.modules.monitor.domain");
+        ParserConfig.getGlobalInstance().addAccept("com.perye.modules.system.entity");
+        ParserConfig.getGlobalInstance().addAccept("com.perye.modules.quartz.entity");
+        ParserConfig.getGlobalInstance().addAccept("com.perye.modules.monitor.entity");
         ParserConfig.getGlobalInstance().addAccept("com.perye.modules.security.security");
         // key的序列化采用StringRedisSerializer
         template.setKeySerializer(new StringRedisSerializer());

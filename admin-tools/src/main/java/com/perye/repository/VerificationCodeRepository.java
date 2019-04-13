@@ -1,6 +1,6 @@
 package com.perye.repository;
 
-import com.perye.domain.VerificationCode;
+import com.perye.entity.VerificationCode;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 /**

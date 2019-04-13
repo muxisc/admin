@@ -1,7 +1,7 @@
 package com.perye.controller;
 
 import cn.hutool.core.util.PageUtil;
-import com.perye.domain.vo.ColumnInfo;
+import com.perye.entity.vo.ColumnInfo;
 import com.perye.exception.BadRequestException;
 import com.perye.service.GenConfigService;
 import com.perye.service.GeneratorService;

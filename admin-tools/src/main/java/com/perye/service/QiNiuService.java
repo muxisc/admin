@@ -1,7 +1,7 @@
 package com.perye.service;
 
-import com.perye.domain.QiniuConfig;
-import com.perye.domain.QiniuContent;
+import com.perye.entity.QiniuConfig;
+import com.perye.entity.QiniuContent;
 import org.springframework.cache.annotation.CacheConfig;
 import org.springframework.cache.annotation.CacheEvict;
 import org.springframework.cache.annotation.CachePut;

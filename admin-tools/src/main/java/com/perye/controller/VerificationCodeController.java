@@ -1,7 +1,7 @@
 package com.perye.controller;
 
-import com.perye.domain.VerificationCode;
-import com.perye.domain.vo.EmailVo;
+import com.perye.entity.VerificationCode;
+import com.perye.entity.vo.EmailVo;
 import com.perye.service.EmailService;
 import com.perye.service.VerificationCodeService;
 import com.perye.utils.AdminConstant;

@@ -1,8 +1,8 @@
 package com.perye.controller;
 
 import com.perye.aop.log.Log;
-import com.perye.domain.EmailConfig;
-import com.perye.domain.vo.EmailVo;
+import com.perye.entity.EmailConfig;
+import com.perye.entity.vo.EmailVo;
 import com.perye.service.EmailService;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;

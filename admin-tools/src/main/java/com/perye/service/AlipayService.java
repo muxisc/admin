@@ -1,7 +1,7 @@
 package com.perye.service;
 
-import com.perye.domain.AlipayConfig;
-import com.perye.domain.vo.TradeVo;
+import com.perye.entity.AlipayConfig;
+import com.perye.entity.vo.TradeVo;
 import org.springframework.cache.annotation.CacheConfig;
 import org.springframework.cache.annotation.CachePut;
 import org.springframework.cache.annotation.Cacheable;

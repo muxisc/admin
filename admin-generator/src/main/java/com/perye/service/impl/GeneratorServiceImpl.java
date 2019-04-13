@@ -1,8 +1,8 @@
 package com.perye.service.impl;
 
-import com.perye.domain.GenConfig;
-import com.perye.domain.vo.ColumnInfo;
-import com.perye.domain.vo.TableInfo;
+import com.perye.entity.GenConfig;
+import com.perye.entity.vo.ColumnInfo;
+import com.perye.entity.vo.TableInfo;
 import com.perye.exception.BadRequestException;
 import com.perye.service.GeneratorService;
 import com.perye.utils.GenUtil;

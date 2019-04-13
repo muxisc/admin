@@ -1,7 +1,7 @@
 package com.perye.service.impl;
 
 import cn.hutool.json.JSONObject;
-import com.perye.domain.Log;
+import com.perye.entity.Log;
 import com.perye.repository.LogRepository;
 import com.perye.service.LogService;
 import com.perye.utils.RequestHolder;

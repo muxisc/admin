@@ -1,6 +1,6 @@
 package com.perye.repository;
 
-import com.perye.domain.Picture;
+import com.perye.entity.Picture;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.JpaSpecificationExecutor;
 

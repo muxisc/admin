@@ -2,8 +2,8 @@ package com.perye.service.impl;
 
 import cn.hutool.extra.mail.MailAccount;
 import cn.hutool.extra.mail.MailUtil;
-import com.perye.domain.EmailConfig;
-import com.perye.domain.vo.EmailVo;
+import com.perye.entity.EmailConfig;
+import com.perye.entity.vo.EmailVo;
 import com.perye.exception.BadRequestException;
 import com.perye.repository.EmailRepository;
 import com.perye.service.EmailService;

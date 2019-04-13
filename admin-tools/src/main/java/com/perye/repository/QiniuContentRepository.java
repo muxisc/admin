@@ -1,6 +1,6 @@
 package com.perye.repository;
 
-import com.perye.domain.QiniuContent;
+import com.perye.entity.QiniuContent;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.JpaSpecificationExecutor;
 

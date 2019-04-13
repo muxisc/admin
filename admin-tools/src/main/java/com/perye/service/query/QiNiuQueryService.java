@@ -1,6 +1,6 @@
 package com.perye.service.query;
 
-import com.perye.domain.QiniuContent;
+import com.perye.entity.QiniuContent;
 import com.perye.repository.QiniuContentRepository;
 import com.perye.utils.PageUtil;
 import org.springframework.beans.factory.annotation.Autowired;

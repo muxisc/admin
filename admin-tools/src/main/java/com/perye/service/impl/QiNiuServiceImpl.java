@@ -1,8 +1,8 @@
 package com.perye.service.impl;
 
 import com.google.gson.Gson;
-import com.perye.domain.QiniuConfig;
-import com.perye.domain.QiniuContent;
+import com.perye.entity.QiniuConfig;
+import com.perye.entity.QiniuContent;
 import com.perye.exception.BadRequestException;
 import com.perye.repository.QiNiuConfigRepository;
 import com.perye.repository.QiniuContentRepository;

@@ -1,6 +1,6 @@
 package com.perye.service.query;
 
-import com.perye.domain.Picture;
+import com.perye.entity.Picture;
 import com.perye.repository.PictureRepository;
 import com.perye.utils.PageUtil;
 import org.springframework.beans.factory.annotation.Autowired;

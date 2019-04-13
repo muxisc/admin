@@ -1,6 +1,6 @@
 package com.perye.aspect;
 
-import com.perye.domain.Log;
+import com.perye.entity.Log;
 import com.perye.exception.BadRequestException;
 import com.perye.service.LogService;
 import com.perye.utils.ThrowableUtil;

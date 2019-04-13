@@ -1,6 +1,6 @@
 package com.perye.service;
 
-import com.perye.domain.GenConfig;
+import com.perye.entity.GenConfig;
 import org.springframework.cache.annotation.CacheConfig;
 import org.springframework.cache.annotation.CachePut;
 import org.springframework.cache.annotation.Cacheable;

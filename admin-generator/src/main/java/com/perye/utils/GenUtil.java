@@ -1,8 +1,8 @@
 package com.perye.utils;
 
 import cn.hutool.extra.template.*;
-import com.perye.domain.GenConfig;
-import com.perye.domain.vo.ColumnInfo;
+import com.perye.entity.GenConfig;
+import com.perye.entity.vo.ColumnInfo;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.util.ObjectUtils;
 
@@ -164,7 +164,7 @@ public class GenUtil {
         }
 
         if ("Entity".equals(templateName)) {
-            return packagePath + "domain" + File.separator + className + ".java";
+            return packagePath + "entity" + File.separator + className + ".java";
         }
 
         if ("Controller".equals(templateName)) {

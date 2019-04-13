@@ -1,7 +1,7 @@
 package com.perye.service;
 
-import com.perye.domain.GenConfig;
-import com.perye.domain.vo.ColumnInfo;
+import com.perye.entity.GenConfig;
+import com.perye.entity.vo.ColumnInfo;
 
 import java.util.List;
 

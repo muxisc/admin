@@ -1,6 +1,6 @@
 package com.perye.repository;
 
-import com.perye.domain.Log;
+import com.perye.entity.Log;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.JpaSpecificationExecutor;
 import org.springframework.data.jpa.repository.Query;

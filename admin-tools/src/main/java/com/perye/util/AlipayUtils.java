@@ -3,7 +3,7 @@ package com.perye.util;
 import cn.hutool.core.util.StrUtil;
 import com.alipay.api.AlipayApiException;
 import com.alipay.api.internal.util.AlipaySignature;
-import com.perye.domain.AlipayConfig;
+import com.perye.entity.AlipayConfig;
 import org.springframework.stereotype.Component;
 
 import javax.servlet.http.HttpServletRequest;

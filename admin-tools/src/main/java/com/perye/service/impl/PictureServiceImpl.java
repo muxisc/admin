@@ -4,7 +4,7 @@ import cn.hutool.http.HttpUtil;
 import cn.hutool.json.JSONObject;
 import cn.hutool.json.JSONUtil;
 import com.alibaba.fastjson.JSON;
-import com.perye.domain.Picture;
+import com.perye.entity.Picture;
 import com.perye.exception.BadRequestException;
 import com.perye.repository.PictureRepository;
 import com.perye.service.PictureService;

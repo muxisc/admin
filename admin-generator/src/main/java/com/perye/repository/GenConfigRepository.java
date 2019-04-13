@@ -1,6 +1,6 @@
 package com.perye.repository;
 
-import com.perye.domain.GenConfig;
+import com.perye.entity.GenConfig;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 /**

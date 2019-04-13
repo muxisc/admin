@@ -1,6 +1,6 @@
 package com.perye.controller;
 
-import com.perye.domain.Log;
+import com.perye.entity.Log;
 import com.perye.service.query.LogQueryService;
 import com.perye.utils.SecurityContextHolder;
 import org.springframework.beans.factory.annotation.Autowired;

@@ -1,6 +1,6 @@
 package com.perye.service;
 
-import com.perye.domain.Picture;
+import com.perye.entity.Picture;
 import org.springframework.cache.annotation.CacheConfig;
 import org.springframework.cache.annotation.CacheEvict;
 import org.springframework.cache.annotation.Cacheable;

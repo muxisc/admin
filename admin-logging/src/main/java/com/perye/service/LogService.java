@@ -1,6 +1,6 @@
 package com.perye.service;
 
-import com.perye.domain.Log;
+import com.perye.entity.Log;
 import org.aspectj.lang.ProceedingJoinPoint;
 import org.springframework.scheduling.annotation.Async;
 

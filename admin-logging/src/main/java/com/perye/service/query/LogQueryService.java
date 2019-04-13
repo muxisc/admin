@@ -1,6 +1,6 @@
 package com.perye.service.query;
 
-import com.perye.domain.Log;
+import com.perye.entity.Log;
 import com.perye.repository.LogRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
