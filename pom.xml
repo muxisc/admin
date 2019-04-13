@@ -13,6 +13,7 @@
         <module>admin-system</module>
         <module>admin-generator</module>
         <module>admin-logging</module>
+        <module>admin-tools</module>
     </modules>
 
 
