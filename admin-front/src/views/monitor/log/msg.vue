@@ -30,7 +30,7 @@ export default {
       ico: 'unlock', unlock: true, content: '锁定滚动条',
       height: document.documentElement.clientHeight - 94.5 + 'px;',
       width: document.documentElement.clientWidth - 185 + 'px;',
-      data: [{ name: 'elAdmin-', timestamp: new Date(), threadName: 'system-prompt-message', level: 'INFO', className: 'me.zhengjie.AppRun' + ' :', body: 'Welcome, no log output' }],
+      data: [{ name: 'Admin-', timestamp: new Date(), threadName: 'system-prompt-message', level: 'INFO', className: 'com.perye.AppRun' + ' :', body: 'Welcome, no log output' }],
       // level
       INFO: '#0000ff', WARN: '#FFFF00', ERROR: '#FF0000', DEBUG: '#DEA000'
     }
@@ -82,7 +82,7 @@ export default {
       this.stompClient.connect(headers, (frame) => {
         this.stompClient.subscribe('/topic/logMsg', (msg) => { // 订阅服务端提供的某个topic
           var content = JSON.parse(msg.body)
-          content.name = 'elAdmin-'
+          content.name = 'Admin-'
           console.log(_this.data)
           this.data.push(content)
         })

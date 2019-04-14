@@ -101,6 +101,7 @@ public class RedisConfig extends CachingConfigurerSupport {
         ParserConfig.getGlobalInstance().addAccept("com.perye.modules.quartz.entity");
         ParserConfig.getGlobalInstance().addAccept("com.perye.modules.monitor.entity");
         ParserConfig.getGlobalInstance().addAccept("com.perye.modules.security.security");
+        ParserConfig.getGlobalInstance().addAccept("com.perye.modules.test.service.dto");
         // key的序列化采用StringRedisSerializer
         template.setKeySerializer(new StringRedisSerializer());
         template.setHashKeySerializer(new StringRedisSerializer());
