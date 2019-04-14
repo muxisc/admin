@@ -168,7 +168,7 @@ public class GenUtil {
         }
 
         if ("Controller".equals(templateName)) {
-            return packagePath + "rest" + File.separator + className + "Controller.java";
+            return packagePath + "controller" + File.separator + className + "Controller.java";
         }
 
         if ("Service".equals(templateName)) {
@@ -243,7 +243,7 @@ public class GenUtil {
     }
 
     public static void main(String[] args){
-        System.out.println(FileUtil.exist("E:\\1.5.txt"));
+        System.out.println(FileUtil.exist("1.5.txt"));
     }
 }
 
