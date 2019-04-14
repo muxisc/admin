@@ -9,8 +9,7 @@
           <Placard class="screenfull right-menu-item"/>
         </el-tooltip>
       </template>
-      <!--<template v-if="device!=='mobile'">-->
-      <template>
+      <template v-if="device!=='mobile'">
         <el-tooltip content="全屏" effect="dark" placement="bottom">
           <screenfull class="screenfull right-menu-item"/>
         </el-tooltip>
