@@ -24,7 +24,7 @@ import java.util.List;
 
 /**
 * @author Perye
-* @date 2019-04-14
+* @date 2019-04-16
  */
 @Service
 @CacheConfig(cacheNames = "test")
@@ -73,47 +73,17 @@ public class TestQueryService {
                 */
                 list.add(cb.equal(root.get("id").as(Long.class),test.getId()));
             }
-            if(!ObjectUtils.isEmpty(test.getCol1())){
+            if(!ObjectUtils.isEmpty(test.getName())){
                 /**
                 * 模糊
                 */
-                list.add(cb.like(root.get("col1").as(String.class),"%"+test.getCol1()+"%"));
+                list.add(cb.like(root.get("name").as(String.class),"%"+test.getName()+"%"));
             }
-            if(!ObjectUtils.isEmpty(test.getCol2())){
+            if(!ObjectUtils.isEmpty(test.getJixiao())){
                 /**
                 * 模糊
                 */
-                list.add(cb.like(root.get("col2").as(String.class),"%"+test.getCol2()+"%"));
-            }
-            if(!ObjectUtils.isEmpty(test.getCol3())){
-                /**
-                * 模糊
-                */
-                list.add(cb.like(root.get("col3").as(String.class),"%"+test.getCol3()+"%"));
-            }
-            if(!ObjectUtils.isEmpty(test.getCol4())){
-                /**
-                * 模糊
-                */
-                list.add(cb.like(root.get("col4").as(String.class),"%"+test.getCol4()+"%"));
-            }
-            if(!ObjectUtils.isEmpty(test.getCol5())){
-                /**
-                * 模糊
-                */
-                list.add(cb.like(root.get("col5").as(String.class),"%"+test.getCol5()+"%"));
-            }
-            if(!ObjectUtils.isEmpty(test.getCol6())){
-                /**
-                * 模糊
-                */
-                list.add(cb.like(root.get("col6").as(String.class),"%"+test.getCol6()+"%"));
-            }
-            if(!ObjectUtils.isEmpty(test.getCol7())){
-                /**
-                * 模糊
-                */
-                list.add(cb.like(root.get("col7").as(String.class),"%"+test.getCol7()+"%"));
+                list.add(cb.like(root.get("jixiao").as(String.class),"%"+test.getJixiao()+"%"));
             }
                 Predicate[] p = new Predicate[list.size()];
                 return cb.and(list.toArray(p));

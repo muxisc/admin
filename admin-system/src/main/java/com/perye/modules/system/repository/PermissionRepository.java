@@ -1,6 +1,7 @@
 package com.perye.modules.system.repository;
 
 import com.perye.modules.system.entity.Permission;
+import com.perye.modules.system.entity.Role;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.JpaSpecificationExecutor;
 
@@ -28,5 +29,7 @@ public interface PermissionRepository extends JpaRepository<Permission, Long>, J
     List<Permission> findByPid(long pid);
 
     Set<Permission> findByRoles_Id(Long id);
+
+    Set<Permission> findByRoles(Set<Role> roles);
 }
 

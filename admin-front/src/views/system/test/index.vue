@@ -4,12 +4,8 @@
     <!--表格渲染-->
     <el-table v-loading="loading" :data="data" size="small" style="width: 100%;">
       <el-table-column prop="id" label="ID"/>
-      <el-table-column prop="col1" label="测试列1"/>
-      <el-table-column prop="col2" label="测试列2"/>
-      <el-table-column prop="col3" label="测试列3"/>
-      <el-table-column prop="col4" label="测试列4"/>
-      <el-table-column prop="col5" label="测试列5"/>
-      <el-table-column prop="col6" label="测试列6"/>
+      <el-table-column prop="name" label="姓名"/>
+      <el-table-column prop="jixiao" label="绩效"/>
       <el-table-column label="操作" width="150px" align="center">
         <template slot-scope="scope">
           <edit v-if="checkPermission(['ADMIN'])" :data="scope.row" :sup_this="sup_this"/>

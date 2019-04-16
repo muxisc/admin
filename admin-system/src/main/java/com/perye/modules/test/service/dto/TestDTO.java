@@ -5,7 +5,7 @@ import java.io.Serializable;
 
 /**
 * @author Perye
-* @date 2019-04-14
+* @date 2019-04-16
 */
 @Data
 public class TestDTO implements Serializable {
@@ -16,37 +16,12 @@ public class TestDTO implements Serializable {
     private Long id;
 
     /**
-     * 测试列1
+     * 姓名
      */
-    private String col1;
+    private String name;
 
     /**
-     * 测试列2
+     * 绩效
      */
-    private String col2;
-
-    /**
-     * 测试列3
-     */
-    private String col3;
-
-    /**
-     * 测试列4
-     */
-    private String col4;
-
-    /**
-     * 测试列5
-     */
-    private String col5;
-
-    /**
-     * 测试列6
-     */
-    private String col6;
-
-    /**
-     * 测试列7
-     */
-    private String col7;
+    private String jixiao;
 }

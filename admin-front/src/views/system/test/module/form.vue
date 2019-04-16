@@ -1,26 +1,11 @@
 <template>
   <el-dialog :append-to-body="true" :visible.sync="dialog" :title="isAdd ? '新增' : '编辑'" width="500px">
     <el-form ref="form" :model="form" :rules="rules" size="small" label-width="80px">
-      <el-form-item label="测试列1">
-        <el-input v-model="form.col1" style="width: 370px;"/>
+      <el-form-item label="姓名">
+        <el-input v-model="form.name" style="width: 370px;"/>
       </el-form-item>
-      <el-form-item label="测试列2">
-        <el-input v-model="form.col2" style="width: 370px;"/>
-      </el-form-item>
-      <el-form-item label="测试列3">
-        <el-input v-model="form.col3" style="width: 370px;"/>
-      </el-form-item>
-      <el-form-item label="测试列4">
-        <el-input v-model="form.col4" style="width: 370px;"/>
-      </el-form-item>
-      <el-form-item label="测试列5">
-        <el-input v-model="form.col5" style="width: 370px;"/>
-      </el-form-item>
-      <el-form-item label="测试列6">
-        <el-input v-model="form.col6" style="width: 370px;"/>
-      </el-form-item>
-      <el-form-item label="测试列7">
-        <el-input v-model="form.col7" style="width: 370px;"/>
+      <el-form-item label="绩效">
+        <el-input v-model="form.jixiao" style="width: 370px;"/>
       </el-form-item>
     </el-form>
     <div slot="footer" class="dialog-footer">
@@ -48,13 +33,8 @@ export default {
       loading: false, dialog: false,
       form: {
         id: '',
-        col1: '',
-        col2: '',
-        col3: '',
-        col4: '',
-        col5: '',
-        col6: '',
-        col7: ''
+        name: '',
+        jixiao: ''
       }
     }
   },
@@ -103,13 +83,8 @@ export default {
       this.$refs['form'].resetFields()
       this.form = {
         id: '',
-        col1: '',
-        col2: '',
-        col3: '',
-        col4: '',
-        col5: '',
-        col6: '',
-        col7: ''
+        name: '',
+        jixiao: ''
       }
     }
   }

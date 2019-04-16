@@ -35,13 +35,8 @@ export default {
     return {
       queryTypeOptions: [
         { key: 'id', display_name: 'ID' },
-        { key: 'col1', display_name: '测试列1' },
-        { key: 'col2', display_name: '测试列2' },
-        { key: 'col3', display_name: '测试列3' },
-        { key: 'col4', display_name: '测试列4' },
-        { key: 'col5', display_name: '测试列5' },
-        { key: 'col6', display_name: '测试列6' },
-        { key: 'col7', display_name: '测试列7' }
+        { key: 'name', display_name: '姓名' },
+        { key: 'jixiao', display_name: '绩效' }
       ]
     }
   },

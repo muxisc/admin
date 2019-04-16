@@ -8,7 +8,7 @@ import org.springframework.cache.annotation.Cacheable;
 
 /**
 * @author Perye
-* @date 2019-04-14
+* @date 2019-04-16
 */
 @CacheConfig(cacheNames = "test")
 public interface TestService {

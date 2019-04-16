@@ -8,7 +8,7 @@ import org.mapstruct.ReportingPolicy;
 
 /**
 * @author Perye
-* @date 2019-04-14
+* @date 2019-04-16
 */
 @Mapper(componentModel = "spring",uses = {},unmappedTargetPolicy = ReportingPolicy.IGNORE)
 public interface TestMapper extends EntityMapper<TestDTO, Test> {
